@@ -1,0 +1,39 @@
+<div class="row">
+
+    <div class="col">
+        <ul>
+            <img src="assets/hero_image_04.png" />
+        </ul>
+    </div>
+    <!-- zone de connexion -->
+    <div class="col">
+
+
+        <br><br>
+            <img src="assets/logo.png" />
+
+            <h2>Connectez-vous à votre compte</h2>
+
+            <h6>Veuillez entrer votre Numéro de téléphone et votre mot de passe pour vous connecter.</h6>
+
+
+
+            <input type="text" [(ngModel)]="credentials.username" name="username" />
+            <br><br>
+            <input type="password" [(ngModel)]="credentials.password"  name="password"/>
+    
+
+
+            <br><br>
+            <button type="button" class="btn btn-primary" (click)="onSubmit()">connexion</button>
+
+
+       
+
+
+        <h5>Vous ne disposez pas encore d'un compte? <a href="https://efit.continuousnet.com/auth/login">créer un compte
+            </a> <br><br> <a href="https://efit.continuousnet.com/auth/login">plus d'informations sur le traitement de
+                vos
+                données </a></h5>
+    </div>
+</div>
